@@ -2,12 +2,12 @@
 
 # BFS(Breath First Search)
 
-Breadth-First Search (BFS) is implemented using OpenGL with GLAD, GLFW, and GLM.
-The project visually demonstrates how the BFS algorithm works on a 2D grid.
-It uses a queue data structure based on the FIFO (First In, First Out) principle.
-The algorithm explores all neighboring nodes level by level.
-It discovers all reachable nodes and selects the shortest path to the target.
-The visualization clearly shows node traversal and the final correct path.
+Breadth-First Search (BFS) is implemented using OpenGL with GLAD, GLFW, and GLM.\n
+The project visually demonstrates how the BFS algorithm works on a 2D grid.\n
+It uses a queue data structure based on the FIFO (First In, First Out) principle.\n
+The algorithm explores all neighboring nodes level by level.\n
+It discovers all reachable nodes and selects the shortest path to the target.\n
+The visualization clearly shows node traversal and the final correct path.\n
 Show Link : https://drive.google.com/file/d/1xpl0OxtDWHJHTEwj76RZBNHQkNpeKzB8/view?usp=drive_link
 
 
