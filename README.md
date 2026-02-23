@@ -16,12 +16,8 @@ The visualization clearly shows node traversal and the final correct path.
 
 Show video Link : https://drive.google.com/file/d/1xpl0OxtDWHJHTEwj76RZBNHQkNpeKzB8/view?usp=drive_link
 
+# DFS(Deapth First Search)
 
-
-
-
-
-#DFS(Deapth First Search)
 
 
 
@@ -33,13 +29,12 @@ The graphics pipeline is built using GLFW, GLAD,and GLM to render a 2D grid envi
 
 The algorithm logic is developed using C++ library such as priority_queue, vector, algorithm, thread, and chrono for execution and visualization control.
 
-The A* algorithm calculates the optimal path using the cost function 
+The A* algorithm calculates the optimal path using the cost function.
 
-Foumula:
+Formula:
 
 f(n) = g(n) + h(n)
 
-where 
 g(n) represents the actual path cost. 
 
 h(n) represents the heuristic estimation.
