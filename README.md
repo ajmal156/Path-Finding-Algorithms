@@ -6,7 +6,7 @@ Breadth-First Search (BFS) is implemented using OpenGL with GLAD, GLFW, and GLM 
 
 The project visually demonstrates how the BFS algorithm works on a 2D grid.
 
-It uses a queue data structure based on the FIFO (First In, First Out) principle.
+It uses a "queue data structure" based on the FIFO (First In, First Out) principle.
 
 The algorithm explores all neighboring nodes level by level.
 
