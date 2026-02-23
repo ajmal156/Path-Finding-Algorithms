@@ -2,7 +2,7 @@
 
 # BFS(Breath First Search)
 
-Breadth-First Search (BFS) is implemented using OpenGL with GLAD, GLFW, and GLM.
+Breadth-First Search (BFS) is implemented using OpenGL with GLAD, GLFW, and GLM in C++.
 
 The project visually demonstrates how the BFS algorithm works on a 2D grid.
 
@@ -16,10 +16,22 @@ The visualization clearly shows node traversal and the final correct path.
 
 Show video Link : https://drive.google.com/file/d/1xpl0OxtDWHJHTEwj76RZBNHQkNpeKzB8/view?usp=drive_link
 
+
 # DFS(Deapth First Search)
 
+Depth-First Search (DFS) is implemented using OpenGL with GLAD, GLFW, and GLM in C++.
 
+The project visually demonstrates how the DFS algorithm works on a 2D grid.
 
+It uses a "stack data structure" based on the LIFO (Last In, First Out) principle.
+
+The algorithm explores nodes by going as deep as possible before backtracking.
+
+It discovers reachable nodes through recursive or stack-based traversal and finds a path to the target.
+
+The visualization clearly shows the depth-wise traversal process and the final path found by DFS.
+
+Show video Link : https://drive.google.com/file/d/1xpl0OxtDWHJHTEwj76RZBNHQkNpeKzB8/view?usp=drive_link
 
 
 # AStar
@@ -37,7 +49,7 @@ f(n) = g(n) + h(n)
 
 g(n) represents the actual path cost. 
 
-h(n) represents the heuristic estimation.
+h(n) represents the heuristic estimation cost.
 
 f(n) represents the total cost.
 
