@@ -64,4 +64,94 @@ This project demonstrates shortest path finding in a 2D grid and provides a clea
 Show Video Link : https://drive.google.com/file/d/1xxduIEW4af51Ggwde-PjJrEFitwEHYRZ/view?usp=drive_link 
 
 
+#CBS 
+# Conflict-Based Search (CBS) – Multi-Agent Pathfinding
 
+# Project Overview
+
+This project implements the **Conflict-Based Search (CBS)** algorithm for solving the **Multi-Agent Pathfinding (MAPF)** problem.
+
+The goal is to find collision-free paths for multiple agents moving in a grid environment.
+
+In this implementation:
+
+* Grid size: **4 × 4**
+* Number of agents: **2**
+* Movement: 4-directional (up, down, left, right)
+* Constraint handling: Avoid vertex and edge conflicts
+
+---
+
+##  What is CBS?
+
+Conflict-Based Search (CBS) is a two-level algorithm:
+
+* **High-Level Search:** Resolves conflicts between agents by adding constraints
+* **Low-Level Search:** Finds shortest path for each agent (using A*)
+
+CBS ensures:
+* Optimal paths
+* No collisions between agents
+
+
+## 🗺️ Problem Setup
+
+### Grid (4×4)
+
+Example coordinate system:
+
+(0,0) → (3,3)
+
+### Agents:
+
+* **Agent 1**
+
+  * Start: (0,1)
+  * Goal: (3,2)
+
+* **Agent 2**
+
+  * Start: (1,0)
+  * Goal: (2,3)
+
+
+## Conflict Handling
+
+The algorithm detects:
+
+* **Vertex Conflict** → Two agents in same cell at same time
+* **Edge Conflict** → Agents swapping positions
+
+CBS resolves conflicts by:
+
+1. Splitting into two constraint nodes
+2. Replanning paths using A*
+
+---
+
+##  Algorithm Steps
+
+1. Initialize root node with paths for all agents
+2. Detect conflicts
+3. If no conflict → solution found
+4. If conflict:
+
+   * Add constraints
+   * Replan affected agent
+5. Repeat until conflict-free solution
+
+##  Implementation Details
+* Language: C++
+* Search Algorithm: A*
+* Data Structures:
+
+  * Priority Queue (Open List)
+  * Constraint Tree (CT)
+  * Path storage per agent
+  
+##  Learning Outcomes
+
+* Understanding Multi-Agent Pathfinding (MAPF)
+* Implementing CBS algorithm
+* Handling agent conflicts
+* Applying A* in constrained environments
