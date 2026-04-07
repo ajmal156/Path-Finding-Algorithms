@@ -64,7 +64,6 @@ This project demonstrates shortest path finding in a 2D grid and provides a clea
 Show Video Link : https://drive.google.com/file/d/1xxduIEW4af51Ggwde-PjJrEFitwEHYRZ/view?usp=drive_link 
 
 
-#CBS 
 # Conflict-Based Search (CBS) – Multi-Agent Pathfinding
 
 # Project Overview
@@ -80,9 +79,7 @@ In this implementation:
 * Movement: 4-directional (up, down, left, right)
 * Constraint handling: Avoid vertex and edge conflicts
 
----
-
-##  What is CBS?
+#  What is CBS?
 
 Conflict-Based Search (CBS) is a two-level algorithm:
 
@@ -94,7 +91,7 @@ CBS ensures:
 * No collisions between agents
 
 
-## 🗺️ Problem Setup
+## Problem Setup
 
 ### Grid (4×4)
 
@@ -126,8 +123,6 @@ CBS resolves conflicts by:
 
 1. Splitting into two constraint nodes
 2. Replanning paths using A*
-
----
 
 ##  Algorithm Steps
 
