@@ -1,4 +1,4 @@
-# BFS DFS AND AStar Algorithm 
+# BFS DFS AStar And CBS Algorithm 
 
 # BFS(Breath First Search)
 
@@ -56,6 +56,8 @@ f(n) represents the total cost.
 The heuristic is applied to guide the search toward the target efficiently.
 
 The algorithm explores four directional movements (up, down, left, right)
+
+# CBS 
 
 Continuously selects the node with the minimum f-cost using a priority queue.
 
