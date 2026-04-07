@@ -55,9 +55,7 @@ f(n) represents the total cost.
 
 The heuristic is applied to guide the search toward the target efficiently.
 
-The algorithm explores four directional movements (up, down, left, right)
-
-# CBS 
+The algorithm explores four directional movements (up, down, left, right) 
 
 Continuously selects the node with the minimum f-cost using a priority queue.
 
