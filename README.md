@@ -154,7 +154,7 @@ CBS resolves conflicts by:
 Show video link : https://drive.google.com/file/d/1jN52sjz78XDL8L8P4m9p9XO_D0CvurDJ/view?usp=sharing
 
 
-# MAPF — Multi-Agent Path Finding (CBS) | 7×7 Grid · 8 Agents
+# MAPF — Multi-Agent Path Finding (CBS)  7×7 Grid · 8 Agents
 
 A real-time visualization of the **Multi-Agent Path Finding (MAPF)** problem solved using **Conflict-Based Search (CBS)**. Built with C++ and OpenGL (GLFW + GLAD + GLM).
 
@@ -163,7 +163,7 @@ A real-time visualization of the **Multi-Agent Path Finding (MAPF)** problem sol
 
 - Renders a **7×7 grid** with obstacles, start positions, and goal positions
 - Simulates **8 agents** moving simultaneously along pre-planned, conflict-free paths
-- Each agent waits when needed to avoid collisions — no two agents occupy the same cell at the same time
+- Each agent waits when needed to avoid collisions , no two agents occupy the same cell at the same time
 - All paths are **optimal**: shortest possible routes given the constraints
 
 ## Controls
@@ -210,10 +210,10 @@ Agents are shown as **colored circles**, start/goal positions as **colored squar
 
 ## Build & Run
 
-```bash
+``bash
 g++ main.cpp -o mapf -lglfw -lGL -ldl -pthread
 ./mapf
-```
+``
 
 Or with CMake:
 
