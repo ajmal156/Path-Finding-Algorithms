@@ -1,4 +1,4 @@
-# BFS DFS AStar And CBS Algorithm 
+# BFS DFS AStar CBS And MAPF Algorithm 
 
 # BFS(Breath First Search)
 
