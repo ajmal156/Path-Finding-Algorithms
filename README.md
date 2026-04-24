@@ -237,4 +237,7 @@ Each agent's path is pre-computed using **CBS (Conflict-Based Search)**:
 
 The result is an optimal, collision-free joint plan across all 8 agents.
 
+Research Paper : https://drive.google.com/file/d/1j_iq-lZa0SQvfkJsfHqvNN3iGfOflGRM/view?usp=sharing
+
 Show Video link : https://drive.google.com/file/d/1CA9BUP-qGGvBpFcpOTYZoYOjEDnK9OXH/view?usp=sharing
+
